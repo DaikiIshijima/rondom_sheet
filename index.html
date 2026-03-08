@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Number Generator</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-gray-100 flex flex-col items-center justify-center h-screen">
+    <h1 class="text-3xl font-bold mb-8">ランダム数字ジェネレーター</h1>
+
+    <button
+      id="startButton"
+      class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg mb-8"
+    >
+      スタート
+    </button>
+
+    <div id="result" class="flex flex-col gap-3 text-3xl font-bold"></div>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
